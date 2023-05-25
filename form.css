@@ -1,0 +1,66 @@
+input[type=text],
+select {
+
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    border: 1px solid black;
+    width: 90%;
+}
+
+textarea {
+    margin: 5px;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+
+input[type=checkbox] {
+    width: auto;
+    height: 4%;
+    border-color: black;
+}
+
+label {
+    padding: 2%;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 6%;
+    width: 80%;
+    height: 4%;
+    background-color: #ccc;
+    text-align: left;
+}
+
+input[type=radio] {
+    border-color: black;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: darkgrey;
+    padding: 1rem;
+    margin: auto;
+    width: 60%;
+}
+
+.coln-25 {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+
+}
+
+.coln-75 {
+    float: left;
+    width: 55%;
+    margin-top: 6px;
+
+}
+
