@@ -18,19 +18,19 @@
             <label for="fname">First Name</label>
         </div>
         <div class="coln-75">
-            <input type="text" id="fname" placeholder="Enter your first name..." required>
+            <input type="text" id="fname" placeholder="Enter your first name..." required/>
         </div>
         <div class="coln-25">
             <label for="fname">Last Name</label>
 
         </div>
         <div class="coln-75">
-            <input type="text" id="lname" placeholder="Enter your last name..."><br>
+            <input type="text" id="lname" placeholder="Enter your last name..." pattern="[0-9]{10}" required><br>
         </div>
         <div class="coln-25">
             <label> Gender</label>
         </div>
-        <div class="coln-75">
+        <div class="coln-75" >
             <input type="radio" name="gender" onclick="radio1()" id="male" value="Male" style="display:inline">
             <label for="male" style="width:30%; margin-left:1%">Male</label>
             <input type="radio" name="gender" id="female" onclick="radio()" value="Female">
@@ -49,7 +49,7 @@
         <div class="coln-25">
             <label for="address">Address</label>
         </div>
-        <textarea id="address" rows="4%" cols="14" placeholder="Enter your address"></textarea><br>
+        <textarea id="address" rows="4%" cols="14" placeholder="Enter your address"required></textarea><br>
 
 
 
@@ -57,13 +57,13 @@
             <label for="pincode">Pincode</label>
         </div>
         <div class="coln-75">
-            <input type="text" id="pincode" placeholder=" Enter your pincode....">
+            <input type="text" id="pincode" placeholder=" Enter your pincode...."required/>
         </div>
         <div class="coln-25">
             <label for="state">State</label>
         </div>
         <div class="coln-75">
-            <input type="text" id="state" placeholder="Enter your state...">
+            <input type="text" id="state" placeholder="Enter your state..." required>
         </div>
 
         <div class="coln-25">

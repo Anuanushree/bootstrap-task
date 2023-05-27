@@ -42,6 +42,10 @@ button:hover {
     background-color: aquamarine;
 }
 
+input[type=button] {
+    margin-right: 50px;
+}
+
 #form {
     border-radius: 5px;
     background-color: darkgrey;
@@ -63,4 +67,3 @@ button:hover {
     margin-top: 6px;
 
 }
-

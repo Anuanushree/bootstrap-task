@@ -9,20 +9,10 @@ chk.addEventListener('click', function (event) {
     rel = output.join(" ");
     console.log(rel)
 })
-function radio() {
-    val = document.getElementById("female").value;
-    console.log(val)
-
-}
-function radio1() {
-    val = document.getElementById("male").value;
-    console.log(val)
-
-}
 
 function myfun() {
-        {
-            if (rel1.length > 1) {
+    {
+        if (rel1.length > 1) {
             document.getElementById('table').style.display = 'block';
 
             var table = document.getElementById('table');
@@ -38,7 +28,7 @@ function myfun() {
             var country = row.insertCell(7);
             fname.innerHTML = document.getElementById('fname').value;
             lname.innerHTML = document.getElementById('lname').value;
-            gender.innerHTML = val;
+            gender.innerHTML = gend();
             address.innerHTML = document.getElementById('address').value;
             food.innerHTML = rel;
 
@@ -51,8 +41,22 @@ function myfun() {
         else
             window.alert("Must select two favorite food")
     }
-    document.getElementById("myform").reset();
+    function gend() {
+        var x = document.getElementById("male");
+        var y = document.getElementById("female");
+        if (x.checked === true) {
+            return "Male";
+        } else if (y.checked === true) {
+            return "Female";
+        } else {
+            return "";
+        }
+    }
 }
-// function myfun(){
-//     document.getElementById("Form").Reset();
-// }
+let clr = document.getElementById('btn')
+clr.addEventListener('click', clear)
+function clear() {
+   
+    document.getElementById("form").reset();
+
+}
